@@ -1,1 +1,78 @@
 
+cerentalapp\node_modules\@babel\parser\lib\index.js:3579:18)     
+    at FlowParserMixin.parseExpressionBase (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10779:23) 
+    at C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10775:39
+    at FlowParserMixin.allowInAnd (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:12427:12)
+    at FlowParserMixin.parseExpression (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10775:17)     
+    at FlowParserMixin.jsxParseExpressionContainer (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:4662:31)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:4741:36)    
+    at FlowParserMixin.jsxParseElementAt (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:4728:32)    
+    at FlowParserMixin.jsxParseElement (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:4779:17)      
+    at FlowParserMixin.parseExprAtom (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:4789:19)        
+    at FlowParserMixin.parseExprSubscripts (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:11076:23) 
+    at FlowParserMixin.parseUpdate (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:11061:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:11041:23)     
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10894:61)
+    at FlowParserMixin.parseExprOps (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10899:23)        
+    at FlowParserMixin.parseMaybeConditional (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10876:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10826:21)    
+    at C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:3528:39
+    at FlowParserMixin.tryParse (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:6935:20)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:3528:18)     
+    at C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10795:39
+    at FlowParserMixin.allowInAnd (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:12427:12)
+    at FlowParserMixin.parseMaybeAssignAllowIn (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10795:17)
+    at FlowParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:12494:17)
+    at FlowParserMixin.parseParenAndDistinguishExpression (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:11674:28)
+    at FlowParserMixin.parseParenAndDistinguishExpression (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:3621:18)
+    at FlowParserMixin.parseExprAtom (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:11326:23)       
+    at FlowParserMixin.parseExprAtom (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:4794:20)        
+    at FlowParserMixin.parseExprSubscripts (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:11076:23) 
+    at FlowParserMixin.parseUpdate (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:11061:21)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:11041:23)     
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10894:61)
+    at FlowParserMixin.parseExprOps (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10899:23)        
+    at FlowParserMixin.parseMaybeConditional (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10876:23)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:10826:21)    
+    at FlowParserMixin.parseMaybeAssign (C:\Users\narub\officespacerentalapp\node_modules\@babel\parser\lib\index.js:3579:18)     
+    at FlowParserMixin.parseExpressionBase (C:\Users\narub\office
+Compiled successfully!
+
+Compiled successfully!
+
+Compiled successfully!
+
+Compiled successfully!
+
+You can now view officespacerentalapp in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.16.52.224:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+ *  History restored 
+
+PS C:\Users\narub\officespacerentalapp> npm start
+
+> officespacerentalapp@0.1.0 start
+> react-scripts start
+
+(node:12480) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:12480) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+Compiled successfully!
+
+You can now view officespacerentalapp in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.16.52.224:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
