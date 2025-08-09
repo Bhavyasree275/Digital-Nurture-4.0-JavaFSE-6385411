@@ -1,0 +1,182 @@
+
+narub@BhavyaShree MINGW64 ~ (GitNewBranch)
+$ git config --global diff.tool p4merge
+git config --global difftool.prompt false
+# Optionally set difftool command if p4merge not on PATH:
+git config --global difftool.p4merge.cmd "\"C:/Program Files/Perforce/p4merge.exe\" \"$LOCAL\" \"$REMOTE\""
+
+narub@BhavyaShree MINGW64 ~ (GitNewBranch)
+$  git merge GitNewBranch
+Already up to date.
+
+narub@BhavyaShree MINGW64 ~ (GitNewBranch)
+$ it log --oneline --graph --decorate
+bash: it: command not found
+
+narub@BhavyaShree MINGW64 ~ (GitNewBranch)
+$ git log --oneline --graph --decorate
+* 2bcec89 (HEAD -> GitNewBranch, master) Add welcome.txt
+
+narub@BhavyaShree MINGW64 ~ (GitNewBranch)
+$ git branch -d GitNewBranch
+error: cannot delete branch 'GitNewBranch' used by worktree at 'C:/Users/narub'
+
+narub@BhavyaShree MINGW64 ~ (GitNewBranch)
+$ cd ~/GitDemo
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git config --global diff.tool p4merge
+git config --global difftool.prompt false
+# Optionally set difftool command if p4merge not on PATH:
+git config --global difftool.p4merge.cmd "\"C:/Program Files/Perforce/p4merge.exe\" \"$LOCAL\" \"$REMOTE\""
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ $ git merge GitNewBranch
+bash: $: command not found
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git merge GitNewBranch
+Updating ae6c2d0..f4d942e
+Fast-forward
+ newfile.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 newfile.txt
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ $ git log --oneline --graph --decorate
+bash: $: command not found
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git log --oneline --graph --decorate
+* f4d942e (HEAD -> master, GitNewBranch) Add newfile.txt in GitNewBranch
+* ae6c2d0 (origin/master) Add .gitignore to ignore .log files and log folder
+* ad7e7b9 First commit - added welcome.txt
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git branch -d GitNewBranch
+Deleted branch GitNewBranch (was f4d942e).
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ $ git push origin GitNewBranch
+bash: $: command not found
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$  git push origin GitNewBranch
+error: src refspec GitNewBranch does not match any
+error: failed to push some refs to 'https://gitlab.com/bhavyasree275-group/gitdemo'
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git branch
+* master
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ # Create the branch from master (or your main branch)
+git checkout master
+git checkout -b GitNewBranch
+
+# Add and commit changes
+git add .
+git commit -m "Recreated GitNewBranch with changes"
+
+# Push it to GitLab
+git push origin GitNewBranch
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Switched to a new branch 'GitNewBranch'
+On branch GitNewBranch
+nothing to commit, working tree clean
+warning: redirecting to https://gitlab.com/bhavyasree275-group/gitdemo.git/
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (9/9), 821 bytes | 821.00 KiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: To create a merge request for GitNewBranch, visit:
+remote:   https://gitlab.com/bhavyasree275-group/gitdemo/-/merge_requests/new?merge_request%5Bsource_branch%5D=GitNewBranch
+remote:
+To https://gitlab.com/bhavyasree275-group/gitdemo
+ * [new branch]      GitNewBranch -> GitNewBranch
+
+narub@BhavyaShree MINGW64 ~/GitDemo (GitNewBranch)
+$ git push origin --delete GitNewBranch
+warning: redirecting to https://gitlab.com/bhavyasree275-group/gitdemo.git/
+To https://gitlab.com/bhavyasree275-group/gitdemo
+ - [deleted]         GitNewBranch
+
+narub@BhavyaShree MINGW64 ~/GitDemo (GitNewBranch)
+$ /GitDemo (GitNewBranch)
+$
+bash: syntax error near unexpected token `GitNewBranch'
+bash: $: command not found
+
+narub@BhavyaShree MINGW64 ~/GitDemo (GitNewBranch)
+$ ^[[200~git push origin GitNewBranch~
+bash: $'\E[200~git': command not found
+
+narub@BhavyaShree MINGW64 ~/GitDemo (GitNewBranch)
+$ git push origin GitNewBranch
+warning: redirecting to https://gitlab.com/bhavyasree275-group/gitdemo.git/
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (9/9), 821 bytes | 821.00 KiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: To create a merge request for GitNewBranch, visit:
+remote:   https://gitlab.com/bhavyasree275-group/gitdemo/-/merge_requests/new?merge_request%5Bsource_branch%5D=GitNewBranch
+remote:
+To https://gitlab.com/bhavyasree275-group/gitdemo
+ * [new branch]      GitNewBranch -> GitNewBranch
+
+narub@BhavyaShree MINGW64 ~/GitDemo (GitNewBranch)
+$  git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git pull origin master
+warning: redirecting to https://gitlab.com/bhavyasree275-group/gitdemo.git/
+fatal: couldn't find remote ref master
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ $ git pull origin master
+warning: redirecting to https://gitlab.com/bhavyasree275-group/gitdemo.git/
+fatal: couldn't find remote ref master
+bash: $: command not found
+bash: warning:: command not found
+> git ls-remote --heads origin
+> ^C
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git ls-remote --heads origin
+warning: redirecting to https://gitlab.com/bhavyasree275-group/gitdemo.git/
+f4d942e936acc17d9c7f28488b5f41f2f90807dd        refs/heads/GitNewBranch
+87056336dadc5ede5b95afba64d3eec25c91ba09        refs/heads/main
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git pull origin main
+warning: redirecting to https://gitlab.com/bhavyasree275-group/gitdemo.git/
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 6 (from 1)
+Unpacking objects: 100% (7/7), 3.41 KiB | 174.00 KiB/s, done.
+From https://gitlab.com/bhavyasree275-group/gitdemo
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+Merge made by the 'ort' strategy.
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$
