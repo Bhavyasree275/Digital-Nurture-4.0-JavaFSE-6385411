@@ -1,0 +1,716 @@
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git version
+git version 2.45.1.windows.1
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git config --global user.name "Bhavyasree275"
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git config --global user.email "narubhavyasree2005@gmail.com"
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git config --global --list
+user.email=narubhavyasree2005@gmail.com
+user.name=Bhavyasree275
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ notepad++
+notepad++.exe bash -profile
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ notepad++.exe bash -profile
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git config --global core.editor "notepad++.exe -multiInst -nosession"
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git config --global -e
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git init GitDemo
+Initialized empty Git repository in C:/Users/narub/GitDemo/.git/
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ ls -al
+total 38072
+drwxr-xr-x 1 narub 197609        0 Aug  9 22:21  ./
+drwxr-xr-x 1 narub 197609        0 Aug  9 22:04  ../
+drwxr-xr-x 1 narub 197609        0 Mar 22 12:49  .arduinoIDE/
+-rw-r--r-- 1 narub 197609      939 Aug  9 22:08  .bash_history
+drwxr-xr-x 1 narub 197609        0 Jul  8 08:28  .cache/
+drwxr-xr-x 1 narub 197609        0 Jul 15 22:21  .config/
+-rw-r--r-- 1 narub 197609        0 Nov 29  2024  .dbshell
+drwxr-xr-x 1 narub 197609        0 May 28  2024  .dist/
+drwxr-xr-x 1 narub 197609        0 Jul  8 08:28  .eclipse/
+drwxr-xr-x 1 narub 197609        0 Jul 15 22:21  .git/
+-rw-r--r-- 1 narub 197609      120 Aug  9 22:19  .gitconfig
+drwxr-xr-x 1 narub 197609        0 Nov 22  2024  .idlerc/
+drwxr-xr-x 1 narub 197609        0 Jun  7 15:50  .jdks/
+-rw-r--r-- 1 narub 197609       20 Aug  9 22:09  .lesshst
+drwxr-xr-x 1 narub 197609        0 Jul  6 14:42  .m2/
+-rw-r--r-- 1 narub 197609        0 Aug 12  2024  .mongorc.js
+drwxr-xr-x 1 narub 197609        0 Jul 26 23:12  .p2/
+drwxr-xr-x 1 narub 197609        0 Mar  2  2024  .vscode/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  AppData/
+lrwxrwxrwx 1 narub 197609       30 Jan 17  2025 'Application Data' -> /c/Users/narub/AppData/Roaming/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  Contacts/
+lrwxrwxrwx 1 narub 197609       58 Jan 17  2025  Cookies -> /c/Users/narub/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 narub 197609        0 Jul 28 18:47  Desktop/
+drwxr-xr-x 1 narub 197609        0 Jul 18 21:51  Documents/
+drwxr-xr-x 1 narub 197609        0 Aug  9 22:16  Downloads/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  Favorites/
+drwxr-xr-x 1 narub 197609        0 Aug  9 22:21  GitDemo/
+drwxr-xr-x 1 narub 197609        0 Jul  1 21:29  IdeaProjects/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  Links/
+lrwxrwxrwx 1 narub 197609       28 Jan 17  2025 'Local Settings' -> /c/Users/narub/AppData/Local/
+-rw-r--r-- 1 narub 197609      409 Jan 27  2025  Main.class
+-rw-r--r-- 1 narub 197609      288 Jan 27  2025  Main.java
+drwxr-xr-x 1 narub 197609        0 Jun 26 22:38  Music/
+lrwxrwxrwx 1 narub 197609       24 Jan 17  2025 'My Documents' -> /c/Users/narub/Documents/
+-rw-r--r-- 1 narub 197609 20447232 Aug  8 22:10  NTUSER.DAT
+-rw-r--r-- 1 narub 197609    65536 Jan 17  2025  NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TM.blf
+-rw-r--r-- 1 narub 197609   524288 Jan 17  2025  NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 narub 197609   524288 Jan 17  2025  NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 narub 197609       66 Jan 17  2025  NetHood -> '/c/Users/narub/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 narub 197609        0 Oct 21  2024 'New folder'/
+drwxr-xr-x 1 narub 197609        0 Aug  9 21:57  Notepad++/
+drwxr-xr-x 1 narub 197609        0 Aug  9 18:55  OneDrive/
+drwxr-xr-x 1 narub 197609        0 Apr 21  2024  Oracle/
+drwxr-xr-x 1 narub 197609        0 Apr 16 09:42  Pictures/
+drwxr-xr-x 1 narub 197609        0 Jul 11 22:37  Postman/
+lrwxrwxrwx 1 narub 197609       66 Jan 17  2025  PrintHood -> '/c/Users/narub/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 narub 197609       55 Jan 17  2025  Recent -> /c/Users/narub/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025 'Saved Games'/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  Searches/
+lrwxrwxrwx 1 narub 197609       55 Jan 17  2025  SendTo -> /c/Users/narub/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 narub 197609       59 Jan 17  2025 'Start Menu' -> '/c/Users/narub/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 narub 197609       58 Jan 17  2025  Templates -> /c/Users/narub/AppData/Roaming/Microsoft/Windows/Templates/
+-rw-r--r-- 1 narub 197609      136 Jun  1 11:25  Untitled-1.cpp
+drwxr-xr-x 1 narub 197609        0 Jul 28 18:52  Videos/
+-rw-r--r-- 1 narub 197609        0 Aug  9 22:18  bash
+drwxr-xr-x 1 narub 197609        0 Jul 26 22:10  blogapp/
+drwxr-xr-x 1 narub 197609        0 Aug  2 16:30  bloggerapp/
+drwxr-xr-x 1 narub 197609        0 Jul 26 23:03  cohortstracker/
+-rw-r--r-- 1 narub 197609        0 Jun  1 10:57  cpp
+drwxr-xr-x 1 narub 197609        0 Aug  1 19:29  cricketapp/
+drwxr-xr-x 1 narub 197609        0 Jul  8 08:44  eclipse-workspace/
+drwxr-xr-x 1 narub 197609        0 Aug  2 16:14  eventexamplesapp/
+drwxr-xr-x 1 narub 197609        0 Jul 26 17:11  myfirstreact/
+-rwxr-xr-x 1 narub 197609  6798017 Aug  9 21:35  npp.8.8.2.Installer.x64.exe*
+-rw-r--r-- 1 narub 197609  5201920 Jan 17  2025  ntuser.dat.LOG1
+-rw-r--r-- 1 narub 197609  5157888 Jan 17  2025  ntuser.dat.LOG2
+-rw-r--r-- 1 narub 197609       20 Jan 17  2025  ntuser.ini
+drwxr-xr-x 1 narub 197609        0 Aug  2 16:07  officespacerentalapp/
+-rw-r--r-- 1 narub 197609       84 Jul 26 22:37  package-lock.json
+drwxr-xr-x 1 narub 197609        0 Jul 26 18:08  scorecalculatorapp/
+-rw-r--r-- 1 narub 197609      121 Jun  1 11:24  strive.cpp
+drwxr-xr-x 1 narub 197609        0 Jul 26 17:31  studentapp/
+drwxr-xr-x 1 narub 197609        0 Aug  2 16:24  ticketbookingapp/
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ echo "Welcome to the version control"
+Welcome to the version control
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ ls -al
+total 38072
+drwxr-xr-x 1 narub 197609        0 Aug  9 22:21  ./
+drwxr-xr-x 1 narub 197609        0 Aug  9 22:04  ../
+drwxr-xr-x 1 narub 197609        0 Mar 22 12:49  .arduinoIDE/
+-rw-r--r-- 1 narub 197609      939 Aug  9 22:08  .bash_history
+drwxr-xr-x 1 narub 197609        0 Jul  8 08:28  .cache/
+drwxr-xr-x 1 narub 197609        0 Jul 15 22:21  .config/
+-rw-r--r-- 1 narub 197609        0 Nov 29  2024  .dbshell
+drwxr-xr-x 1 narub 197609        0 May 28  2024  .dist/
+drwxr-xr-x 1 narub 197609        0 Jul  8 08:28  .eclipse/
+drwxr-xr-x 1 narub 197609        0 Jul 15 22:21  .git/
+-rw-r--r-- 1 narub 197609      120 Aug  9 22:19  .gitconfig
+drwxr-xr-x 1 narub 197609        0 Nov 22  2024  .idlerc/
+drwxr-xr-x 1 narub 197609        0 Jun  7 15:50  .jdks/
+-rw-r--r-- 1 narub 197609       20 Aug  9 22:09  .lesshst
+drwxr-xr-x 1 narub 197609        0 Jul  6 14:42  .m2/
+-rw-r--r-- 1 narub 197609        0 Aug 12  2024  .mongorc.js
+drwxr-xr-x 1 narub 197609        0 Jul 26 23:12  .p2/
+drwxr-xr-x 1 narub 197609        0 Mar  2  2024  .vscode/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  AppData/
+lrwxrwxrwx 1 narub 197609       30 Jan 17  2025 'Application Data' -> /c/Users/narub/AppData/Roaming/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  Contacts/
+lrwxrwxrwx 1 narub 197609       58 Jan 17  2025  Cookies -> /c/Users/narub/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 narub 197609        0 Jul 28 18:47  Desktop/
+drwxr-xr-x 1 narub 197609        0 Jul 18 21:51  Documents/
+drwxr-xr-x 1 narub 197609        0 Aug  9 22:16  Downloads/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  Favorites/
+drwxr-xr-x 1 narub 197609        0 Aug  9 22:21  GitDemo/
+drwxr-xr-x 1 narub 197609        0 Jul  1 21:29  IdeaProjects/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  Links/
+lrwxrwxrwx 1 narub 197609       28 Jan 17  2025 'Local Settings' -> /c/Users/narub/AppData/Local/
+-rw-r--r-- 1 narub 197609      409 Jan 27  2025  Main.class
+-rw-r--r-- 1 narub 197609      288 Jan 27  2025  Main.java
+drwxr-xr-x 1 narub 197609        0 Jun 26 22:38  Music/
+lrwxrwxrwx 1 narub 197609       24 Jan 17  2025 'My Documents' -> /c/Users/narub/Documents/
+-rw-r--r-- 1 narub 197609 20447232 Aug  8 22:10  NTUSER.DAT
+-rw-r--r-- 1 narub 197609    65536 Jan 17  2025  NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TM.blf
+-rw-r--r-- 1 narub 197609   524288 Jan 17  2025  NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 narub 197609   524288 Jan 17  2025  NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 narub 197609       66 Jan 17  2025  NetHood -> '/c/Users/narub/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 narub 197609        0 Oct 21  2024 'New folder'/
+drwxr-xr-x 1 narub 197609        0 Aug  9 21:57  Notepad++/
+drwxr-xr-x 1 narub 197609        0 Aug  9 18:55  OneDrive/
+drwxr-xr-x 1 narub 197609        0 Apr 21  2024  Oracle/
+drwxr-xr-x 1 narub 197609        0 Apr 16 09:42  Pictures/
+drwxr-xr-x 1 narub 197609        0 Jul 11 22:37  Postman/
+lrwxrwxrwx 1 narub 197609       66 Jan 17  2025  PrintHood -> '/c/Users/narub/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 narub 197609       55 Jan 17  2025  Recent -> /c/Users/narub/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025 'Saved Games'/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  Searches/
+lrwxrwxrwx 1 narub 197609       55 Jan 17  2025  SendTo -> /c/Users/narub/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 narub 197609       59 Jan 17  2025 'Start Menu' -> '/c/Users/narub/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 narub 197609       58 Jan 17  2025  Templates -> /c/Users/narub/AppData/Roaming/Microsoft/Windows/Templates/
+-rw-r--r-- 1 narub 197609      136 Jun  1 11:25  Untitled-1.cpp
+drwxr-xr-x 1 narub 197609        0 Jul 28 18:52  Videos/
+-rw-r--r-- 1 narub 197609        0 Aug  9 22:18  bash
+drwxr-xr-x 1 narub 197609        0 Jul 26 22:10  blogapp/
+drwxr-xr-x 1 narub 197609        0 Aug  2 16:30  bloggerapp/
+drwxr-xr-x 1 narub 197609        0 Jul 26 23:03  cohortstracker/
+-rw-r--r-- 1 narub 197609        0 Jun  1 10:57  cpp
+drwxr-xr-x 1 narub 197609        0 Aug  1 19:29  cricketapp/
+drwxr-xr-x 1 narub 197609        0 Jul  8 08:44  eclipse-workspace/
+drwxr-xr-x 1 narub 197609        0 Aug  2 16:14  eventexamplesapp/
+drwxr-xr-x 1 narub 197609        0 Jul 26 17:11  myfirstreact/
+-rwxr-xr-x 1 narub 197609  6798017 Aug  9 21:35  npp.8.8.2.Installer.x64.exe*
+-rw-r--r-- 1 narub 197609  5201920 Jan 17  2025  ntuser.dat.LOG1
+-rw-r--r-- 1 narub 197609  5157888 Jan 17  2025  ntuser.dat.LOG2
+-rw-r--r-- 1 narub 197609       20 Jan 17  2025  ntuser.ini
+drwxr-xr-x 1 narub 197609        0 Aug  2 16:07  officespacerentalapp/
+-rw-r--r-- 1 narub 197609       84 Jul 26 22:37  package-lock.json
+drwxr-xr-x 1 narub 197609        0 Jul 26 18:08  scorecalculatorapp/
+-rw-r--r-- 1 narub 197609      121 Jun  1 11:24  strive.cpp
+drwxr-xr-x 1 narub 197609        0 Jul 26 17:31  studentapp/
+drwxr-xr-x 1 narub 197609        0 Aug  2 16:24  ticketbookingapp/
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ echo "Welcome to the version control" >>welcome.txt
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ ls -al
+total 38073
+drwxr-xr-x 1 narub 197609        0 Aug  9 22:22  ./
+drwxr-xr-x 1 narub 197609        0 Aug  9 22:04  ../
+drwxr-xr-x 1 narub 197609        0 Mar 22 12:49  .arduinoIDE/
+-rw-r--r-- 1 narub 197609      939 Aug  9 22:08  .bash_history
+drwxr-xr-x 1 narub 197609        0 Jul  8 08:28  .cache/
+drwxr-xr-x 1 narub 197609        0 Jul 15 22:21  .config/
+-rw-r--r-- 1 narub 197609        0 Nov 29  2024  .dbshell
+drwxr-xr-x 1 narub 197609        0 May 28  2024  .dist/
+drwxr-xr-x 1 narub 197609        0 Jul  8 08:28  .eclipse/
+drwxr-xr-x 1 narub 197609        0 Jul 15 22:21  .git/
+-rw-r--r-- 1 narub 197609      120 Aug  9 22:19  .gitconfig
+drwxr-xr-x 1 narub 197609        0 Nov 22  2024  .idlerc/
+drwxr-xr-x 1 narub 197609        0 Jun  7 15:50  .jdks/
+-rw-r--r-- 1 narub 197609       20 Aug  9 22:09  .lesshst
+drwxr-xr-x 1 narub 197609        0 Jul  6 14:42  .m2/
+-rw-r--r-- 1 narub 197609        0 Aug 12  2024  .mongorc.js
+drwxr-xr-x 1 narub 197609        0 Jul 26 23:12  .p2/
+drwxr-xr-x 1 narub 197609        0 Mar  2  2024  .vscode/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  AppData/
+lrwxrwxrwx 1 narub 197609       30 Jan 17  2025 'Application Data' -> /c/Users/narub/AppData/Roaming/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  Contacts/
+lrwxrwxrwx 1 narub 197609       58 Jan 17  2025  Cookies -> /c/Users/narub/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 narub 197609        0 Jul 28 18:47  Desktop/
+drwxr-xr-x 1 narub 197609        0 Jul 18 21:51  Documents/
+drwxr-xr-x 1 narub 197609        0 Aug  9 22:16  Downloads/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  Favorites/
+drwxr-xr-x 1 narub 197609        0 Aug  9 22:21  GitDemo/
+drwxr-xr-x 1 narub 197609        0 Jul  1 21:29  IdeaProjects/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  Links/
+lrwxrwxrwx 1 narub 197609       28 Jan 17  2025 'Local Settings' -> /c/Users/narub/AppData/Local/
+-rw-r--r-- 1 narub 197609      409 Jan 27  2025  Main.class
+-rw-r--r-- 1 narub 197609      288 Jan 27  2025  Main.java
+drwxr-xr-x 1 narub 197609        0 Jun 26 22:38  Music/
+lrwxrwxrwx 1 narub 197609       24 Jan 17  2025 'My Documents' -> /c/Users/narub/Documents/
+-rw-r--r-- 1 narub 197609 20447232 Aug  8 22:10  NTUSER.DAT
+-rw-r--r-- 1 narub 197609    65536 Jan 17  2025  NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TM.blf
+-rw-r--r-- 1 narub 197609   524288 Jan 17  2025  NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 narub 197609   524288 Jan 17  2025  NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 narub 197609       66 Jan 17  2025  NetHood -> '/c/Users/narub/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 narub 197609        0 Oct 21  2024 'New folder'/
+drwxr-xr-x 1 narub 197609        0 Aug  9 21:57  Notepad++/
+drwxr-xr-x 1 narub 197609        0 Aug  9 18:55  OneDrive/
+drwxr-xr-x 1 narub 197609        0 Apr 21  2024  Oracle/
+drwxr-xr-x 1 narub 197609        0 Apr 16 09:42  Pictures/
+drwxr-xr-x 1 narub 197609        0 Jul 11 22:37  Postman/
+lrwxrwxrwx 1 narub 197609       66 Jan 17  2025  PrintHood -> '/c/Users/narub/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 narub 197609       55 Jan 17  2025  Recent -> /c/Users/narub/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025 'Saved Games'/
+drwxr-xr-x 1 narub 197609        0 Jan 17  2025  Searches/
+lrwxrwxrwx 1 narub 197609       55 Jan 17  2025  SendTo -> /c/Users/narub/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 narub 197609       59 Jan 17  2025 'Start Menu' -> '/c/Users/narub/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 narub 197609       58 Jan 17  2025  Templates -> /c/Users/narub/AppData/Roaming/Microsoft/Windows/Templates/
+-rw-r--r-- 1 narub 197609      136 Jun  1 11:25  Untitled-1.cpp
+drwxr-xr-x 1 narub 197609        0 Jul 28 18:52  Videos/
+-rw-r--r-- 1 narub 197609        0 Aug  9 22:18  bash
+drwxr-xr-x 1 narub 197609        0 Jul 26 22:10  blogapp/
+drwxr-xr-x 1 narub 197609        0 Aug  2 16:30  bloggerapp/
+drwxr-xr-x 1 narub 197609        0 Jul 26 23:03  cohortstracker/
+-rw-r--r-- 1 narub 197609        0 Jun  1 10:57  cpp
+drwxr-xr-x 1 narub 197609        0 Aug  1 19:29  cricketapp/
+drwxr-xr-x 1 narub 197609        0 Jul  8 08:44  eclipse-workspace/
+drwxr-xr-x 1 narub 197609        0 Aug  2 16:14  eventexamplesapp/
+drwxr-xr-x 1 narub 197609        0 Jul 26 17:11  myfirstreact/
+-rwxr-xr-x 1 narub 197609  6798017 Aug  9 21:35  npp.8.8.2.Installer.x64.exe*
+-rw-r--r-- 1 narub 197609  5201920 Jan 17  2025  ntuser.dat.LOG1
+-rw-r--r-- 1 narub 197609  5157888 Jan 17  2025  ntuser.dat.LOG2
+-rw-r--r-- 1 narub 197609       20 Jan 17  2025  ntuser.ini
+drwxr-xr-x 1 narub 197609        0 Aug  2 16:07  officespacerentalapp/
+-rw-r--r-- 1 narub 197609       84 Jul 26 22:37  package-lock.json
+drwxr-xr-x 1 narub 197609        0 Jul 26 18:08  scorecalculatorapp/
+-rw-r--r-- 1 narub 197609      121 Jun  1 11:24  strive.cpp
+drwxr-xr-x 1 narub 197609        0 Jul 26 17:31  studentapp/
+drwxr-xr-x 1 narub 197609        0 Aug  2 16:24  ticketbookingapp/
+-rw-r--r-- 1 narub 197609       31 Aug  9 22:22  welcome.txt
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ cat welcome.txt
+Welcome to the version control
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .arduinoIDE/
+        .bash_history
+        .cache/
+        .config/
+        .dbshell
+        .eclipse/
+        .gitconfig
+        .idlerc/
+        .lesshst
+        .m2/
+        .mongorc.js
+        .p2/
+        .vscode/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        GitDemo/
+        IdeaProjects/
+        Links/
+        Main.class
+        Main.java
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TM.blf
+        NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000002.regtrans-ms
+        Notepad++/
+        OneDrive/
+        Oracle/
+        Pictures/
+        Saved Games/
+        Searches/
+        Untitled-1.cpp
+        Videos/
+        bash
+        blogapp/
+        bloggerapp/
+        cohortstracker/
+        cpp
+        cricketapp/
+        eclipse-workspace/
+        eventexamplesapp/
+        myfirstreact/
+        npp.8.8.2.Installer.x64.exe
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        officespacerentalapp/
+        package-lock.json
+        scorecalculatorapp/
+        strive.cpp
+        studentapp/
+        ticketbookingapp/
+        welcome.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git add welcome.txt
+warning: in the working copy of 'welcome.txt', LF will be replaced by CRLF the next time Git touches it
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git commit
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+Aborting commit due to empty commit message.
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   welcome.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .arduinoIDE/
+        .bash_history
+        .cache/
+        .config/
+        .dbshell
+        .eclipse/
+        .gitconfig
+        .idlerc/
+        .lesshst
+        .m2/
+        .mongorc.js
+        .p2/
+        .vscode/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        GitDemo/
+        IdeaProjects/
+        Links/
+        Main.class
+        Main.java
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TM.blf
+        NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000002.regtrans-ms
+        Notepad++/
+        OneDrive/
+        Oracle/
+        Pictures/
+        Saved Games/
+        Searches/
+        Untitled-1.cpp
+        Videos/
+        bash
+        blogapp/
+        bloggerapp/
+        cohortstracker/
+        cpp
+        cricketapp/
+        eclipse-workspace/
+        eventexamplesapp/
+        myfirstreact/
+        npp.8.8.2.Installer.x64.exe
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        officespacerentalapp/
+        package-lock.json
+        scorecalculatorapp/
+        strive.cpp
+        studentapp/
+        ticketbookingapp/
+
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ ^C
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ ^C
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git commit -m "Add welcome.txt"
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Removing duplicate objects: 100% (256/256), done.
+[master (root-commit) 2bcec89] Add welcome.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 welcome.txt
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git log
+commit 2bcec896b6dce39c1cfc067470c1ff8cffb5a5bd (HEAD -> master)
+Author: Bhavyasree275 <narubhavyasree2005@gmail.com>
+Date:   Sat Aug 9 22:33:50 2025 +0530
+
+    Add welcome.txt
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ GitDemo/
+ IdeaProjects/
+ Links/
+'Local Settings'@
+ Main.class
+ Main.java
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TM.blf
+ NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+'New folder'/
+ Notepad++/
+ OneDrive/
+ Oracle/
+ Pictures/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Untitled-1.cpp
+ Videos/
+ bash
+ blogapp/
+ bloggerapp/
+ cohortstracker/
+ cpp
+ cricketapp/
+ eclipse-workspace/
+ eventexamplesapp/
+ myfirstreact/
+ npp.8.8.2.Installer.x64.exe*
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ officespacerentalapp/
+ package-lock.json
+ scorecalculatorapp/
+ strive.cpp
+ studentapp/
+ ticketbookingapp/
+ welcome.txt
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .arduinoIDE/
+        .bash_history
+        .cache/
+        .config/
+        .dbshell
+        .eclipse/
+        .gitconfig
+        .idlerc/
+        .lesshst
+        .m2/
+        .mongorc.js
+        .p2/
+        .vscode/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        GitDemo/
+        IdeaProjects/
+        Links/
+        Main.class
+        Main.java
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TM.blf
+        NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{73fca1ad-d4d8-11ef-96c9-fe66782c48d3}.TMContainer00000000000000000002.regtrans-ms
+        Notepad++/
+        OneDrive/
+        Oracle/
+        Pictures/
+        Saved Games/
+        Searches/
+        Untitled-1.cpp
+        Videos/
+        bash
+        blogapp/
+        bloggerapp/
+        cohortstracker/
+        cpp
+        cricketapp/
+        eclipse-workspace/
+        eventexamplesapp/
+        myfirstreact/
+        npp.8.8.2.Installer.x64.exe
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        officespacerentalapp/
+        package-lock.json
+        scorecalculatorapp/
+        strive.cpp
+        studentapp/
+        ticketbookingapp/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ cd path/to/GitDemo
+bash: cd: path/to/GitDemo: No such file or directory
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ cd ~
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ mkdir GitDemo
+mkdir: cannot create directory ‘GitDemo’: File exists
+
+narub@BhavyaShree MINGW64 ~ (master)
+$ cd GitDemo
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ echo "Welcome to the version control">>welcome.txt
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ ls -a
+./  ../  .git/  welcome.txt
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        welcome.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git add welcome.txt
+warning: in the working copy of 'welcome.txt', LF will be replaced by CRLF the next time Git touches it
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   welcome.txt
+
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git pull origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git remote add origin https://gitlab.com/bhavyasree275-group/gitdemo
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git add welcome.txt
+git commit -m "First commit - added welcome.txt"
+[master (root-commit) ad7e7b9] First commit - added welcome.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 welcome.txt
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$ git push -u origin master
+
+
+warning: redirecting to https://gitlab.com/bhavyasree275-group/gitdemo.git/
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 266 bytes | 266.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: To create a merge request for master, visit:
+remote:   https://gitlab.com/bhavyasree275-group/gitdemo/-/merge_requests/new?merge_request%5Bsource_branch%5D=master
+remote:
+To https://gitlab.com/bhavyasree275-group/gitdemo
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+narub@BhavyaShree MINGW64 ~/GitDemo (master)
+$
+
+
+
